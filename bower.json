@@ -1,0 +1,21 @@
+{
+  "name": "socket-demo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kashish Gupta <kashishguptatech@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^2.2.6"
+  }
+}

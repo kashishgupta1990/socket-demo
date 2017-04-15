@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Socket Demo Applicaition</title>
+    <script src="bower_components/vue/dist/vue.min.js"></script>
+    <script src="js/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div id="body">
+    <h3>Online User: {{userCount}}</h3>
+    <input v-model="message" v-on:keyup="textUpdate">
+    <p>Update From Server: {{message}}</p>
+</div>
+</body>
+</html>
