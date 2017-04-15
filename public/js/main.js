@@ -6,6 +6,7 @@ window.onload = function() {
         el: '#body',
         data: {
             message:'',
+            serverMessage: '',
             userCount: ''
         },
         methods: {
@@ -16,7 +17,7 @@ window.onload = function() {
     });
 
     socket.on('updatedMessage', function(data){
-        app.message = data.message;
+        app.serverMessage = data.message;
     });
     socket.on('userCount', function(data){
         app.userCount = data.message;
